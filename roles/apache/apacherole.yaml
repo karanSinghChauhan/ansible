@@ -1,0 +1,5 @@
+---
+- hosts: 35.175.113.108
+  become: yes
+  roles:
+  - apache
